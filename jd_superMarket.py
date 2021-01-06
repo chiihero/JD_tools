@@ -345,7 +345,7 @@ def pk(cookies):
         print(f'邀请人数:{data["inviteCount"]}/50')
         print(f'京豆奖励:{data["prizeInfo"]["inviteJdBeanCount"]}')
 
-    if data["pkStatus"] == 2 and data["prizeInfo"]["pkPrizeStatus"] == 2:
+    if data["pkStatus"] == 2:
         print("开始领取")
         resopnse = getTemplate(cookies, "smtg_receivedPkTeamPrize", {})
         print(resopnse)

@@ -4,7 +4,6 @@ import requests
 import time
 
 """
-
 宠汪汪
 1、FEED_NUM :自定义 每次喂养数量; 等级只和喂养次数有关，与数量无关
 2、cron 0 */3 * * *  jd_joy.py  #每隔三小时运行一次，加快升级

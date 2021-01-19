@@ -168,7 +168,7 @@ def _energyProp_gain(cookies, energy_id,):
 
 def _energyProp_use(cookies, energy_id):
     print("使用燃料")
-
+    time.sleep(2)
     params = (
         ('appid', 'memberTaskCenter'),
         ('functionId', 'energyProp_use'),
